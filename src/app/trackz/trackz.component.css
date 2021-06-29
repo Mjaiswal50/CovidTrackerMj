@@ -1,0 +1,148 @@
+#spinnerz{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 55%;
+    left: 45%;
+    }
+.content-info {
+      background: #f9f9f9;
+      padding: 40px 0;
+      background-size: cover !important;
+      background-position: top center !important;
+      background-repeat: no-repeat !important;
+      position: relative;
+      padding-bottom: 100px
+    }
+
+    td#r {
+      background-color: rgba(red, green, blue, 0);
+      transform: scale(1, 1);
+      transition: all 0.12s;
+    }
+
+    td#r:hover {
+      background-color: rgba(0, 255, 0, 0.6);
+      color: white;
+      transform: scale(1.5, 1.5);
+      text-shadow: 0.5px 1px black;
+       font-weight: bold;
+    }
+
+
+
+    td#d {
+      background-color: rgba(red, green, blue, 0);
+      transform: scale(1, 1);
+      transition: all 0.12s;
+    }
+
+    td#d:hover {
+      background-color: rgba(255, 0, 0, 0.8);
+      color: white;
+      transform: scale(1.5, 1.5);
+         text-shadow: 0.5px 1px black;
+         font-weight: bold;
+    }
+
+
+    td#c {
+      background-color: rgba(red, green, blue, 0);
+      transform: scale(1, 1);
+      transition: all 0.2s;
+    }
+
+    td#c:hover {
+      background-color: rgba(255, 255, 0, 0.8);
+      transform: scale(1.5, 1.5);
+      color: white;
+      text-shadow: 0.5px 1px black;
+      transform: scale(1.5, 1.5);
+        font-weight: bold;
+    }
+
+
+    td#no {
+      background-color: rgba(red, green, blue, 0);
+      transition: all 0.2s;
+    }
+
+    td#no:hover {
+      background-color: rgba(0, 0, 255, 0.8);
+      color: white;   font-weight: bold;
+    }
+
+
+    td#p {
+      background-color: rgba(red, green, blue, 0);
+      transition: all 0.2s;
+      transform: scale(1, 1);
+    }
+
+    td#p:hover {
+      background-color: rgba(128, 128, 128, 0.8);
+      transform: scale(1.2, 1.5);
+      color: white;
+         font-weight: bold;
+    }
+
+
+    h1 {
+      text-shadow: 2px 3px 1px black;
+      font-weight: 50;
+      background-color: #F9F9F9;
+      height: 100%;
+    }
+
+    th {
+      background-color: rgba(206, 169, 206, 0.5);
+    }
+
+    th:hover {
+      background-color: rgba(206, 169, 206, 0.5);
+      color: white;
+      text-shadow: 1px 2px black;
+    }
+
+    table {
+      width: 100%;
+      background: #fff;
+      border: 1px solid #dedede;
+    }
+
+    table thead tr th {
+      padding: 20px;
+      border: 1px solid #dedede;
+      color: #000
+    }
+
+    table.table-striped tbody tr:nth-of-type(odd) {
+      background: #f9f9f9
+    }
+
+    table.result-point tr td.number {
+      width: 100px;
+      position: relative
+    }
+
+    table tr td {
+      padding: 10px 20px;
+      border: 1px solid #dedede
+    }
+
+    table.result-point tr td .fa.fa-caret-up {
+      color: rgb(236, 247, 236)
+    }
+
+    table.result-point tr td .fa {
+      font-size: 20px;
+      position: absolute;
+      right: 20px
+    }
+
+    table tr td {
+      padding: 10px 40px;
+      border: 1px solid #dedede
+    }
+
+
